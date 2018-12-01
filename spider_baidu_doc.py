@@ -139,7 +139,7 @@ import pymongo
 
 print u"正在连接mongo数据库: grassdoor_job_data"
 
-#
+
 myclient = pymongo.MongoClient("mongodb://admin:password123@ds151393.mlab.com:51393/grassdoor_job_data")
 mydb = myclient["grassdoor_job_data"]
 print u"mongo数据库链接成功"

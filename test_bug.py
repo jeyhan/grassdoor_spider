@@ -20,5 +20,9 @@ print mydb
 
 mycollection = mydb["jobs"]
 
+i=0
 for doc in mycollection.find():
-    print json.dumps(doc, sort_keys=True, indent=4, default=json_util.default)
+    i+=1
+    #print json.dumps(doc, sort_keys=True, indent=4, default=json_util.default)
+
+print i
